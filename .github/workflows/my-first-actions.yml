@@ -14,5 +14,3 @@ jobs:
         run: |
           echo "This is a multi-line script."
           echo "GitHub Actions makes automation easy!"
-
-          //to test the commmit
