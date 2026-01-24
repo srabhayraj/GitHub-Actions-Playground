@@ -1,0 +1,16 @@
+name: My First GitHub Actions Workflow
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6, 3.7, 3.8, 3.9]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo "Hello, World!"
+      - name: Run a multi-line script
+        run: |
+          echo "This is a multi-line script."
+          echo "GitHub Actions makes automation easy!"
