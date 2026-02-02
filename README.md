@@ -7,7 +7,7 @@ GitHub Action Projects
 This project demonstrates a complete CI/CD pipeline built using Jenkins to automate build, test, and deployment processes. The objective was to understand how code changes move from source control to deployment in a controlled and repeatable manner.
 
 ## Architecture
-Developer pushes code to GitHub → GitHub Actions pipeline triggers → Build and validation steps → Deployment to target environment.
+Developer pushes code to GitHub → GitHub Actions pipeline triggers as any commit happens → Build and validation steps → Deployment to target environment.
 
 ## Tools & Technologies
 - GitHub Actions – Pipeline orchestration
