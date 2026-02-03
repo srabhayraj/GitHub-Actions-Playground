@@ -28,6 +28,6 @@ Developer pushes code to GitHub → GitHub Actions pipeline triggers as any comm
 - Gained hands-on experience with pipeline failures and troubleshooting.
 
 ## Future Enhancements
-- Add Docker-based build and deployment
-- Integrate automated testing stage
-- Migrate pipeline to Jenkins
+- Add Docker-based build and deployment.
+- Integrate automated testing stage.
+- Migrate pipeline to Jenkins.
